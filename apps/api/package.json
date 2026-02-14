@@ -3,13 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm --filter @repo/crypto run build && tsc",
+    "dev": "pnpm run build && node dist/server.js"
   },
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@repo/crypto": "workspace:^",
+    "dotenv": "^17.3.1",
     "fastify": "^5.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
