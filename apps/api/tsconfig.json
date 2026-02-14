@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2022",       // >= ES2017
-    "module": "ES2022",       // or "node18" / "nodenext"
-    "outDir": "dist",
-    "rootDir": ".",
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
-    "moduleResolution": "node",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["server.ts"]
+  "include": ["api"]
 }
