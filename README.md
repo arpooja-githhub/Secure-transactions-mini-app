@@ -3,9 +3,8 @@
 A production-ready implementation of **Envelope Encryption** built with a Turborepo monorepo structure. This project demonstrates secure data handling, cryptographic integrity, and a decoupled full-stack architecture.
 
 ## 🚀 Quick Links
-- **Live Demo:** [Insert your Vercel URL here]
-- **API Documentation:** [Insert your Vercel API URL here]/tx/demo
-- **Video Walkthrough:** [Insert your Loom Link here]
+- **Live Demo:** [https://secure-transactions-mini-app-web-2c.vercel.app/]
+- **Video Walkthrough:** [https://www.loom.com/share/832c6f0f9b814464b202335226d0016b]
 
 ## 🛠 Tech Stack
 - **Monorepo Management:** Turborepo / pnpm
